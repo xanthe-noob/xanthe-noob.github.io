@@ -1,54 +1,51 @@
-
-<!-- COPYLEFT Xanthe-noob. -->
+<!-- COPYLEFT portail.ml -->
 <html>
 <head>
 <meta charset="utf-8" />
-<title>xanthe-noob</title>
-<link rel="icon" type="image/png" href="./favicon.png"/>
+	<title>portail.ml</title>
 	<style>
-		a:link {color:green; text-decoration:none;}
-		a:visited {color:blue; text-decoration:none;}
-		a:hover {color:black; text-decoration:none;}
-		a:active {color: green; text-decoration:none;}
-		input {height: 40px; width: 90%; text-align: center; background-color: #000000; color:white; text-decoration:none; font-size:20px; border: 5px solid green; }
-		div.d1 { text-align:center; color:green; font-family: arial; font-size:20px;}
-		div.d2 {color: white; font-family: arial; font-size: 15px;}
-		div.cgu {text-align:right; color:gray; font-family: arial; font-size:10px;}
-        table.main {border-spacing: 20px;}
+		a:link {color:black; text-decoration:none;}
+		a:visited {color:black; text-decoration:none;}
+		a:hover {color:#E74C3C; text-decoration:none;}
+		a:active {color:black; text-decoration:none;}
+		p.p1 {text-align:left; font-family:arial;}
+		div.arial {font-family: arial; font-size: 30px;}
+		div.text {font-family: arial; font-size: 15px;}
+		div.cgu {text-align:justify; color:gray; font-family:arial; font-size:10px;}
+		hr {border-width: 1px;}
+		table.main {border-spacing: 20px;}
 </style>
 <meta name="viewport" content="width=device-width"/>
-    <script type="text/javascript">
-      function myAlert()
-      {
-          alert("Webmaster : xanthe-noob@portail.ml");
-            	return;
-      }
-    </script>
+<link rel="icon" href="favicon.ico" />
 </head>
 
-<body bgcolor="green" onload="document.getElementById('recherche').focus()">
-<table class="main" border=0 width=100% height=100% align=center bgcolor=#000000>
+<body bgcolor="blue" onload="document.getElementById('mot_de_passe').focus();">
+		<table class="main" border=0 width=100% height=100% align=center bgcolor=white>
 		<tr>
 			<td>
-<table border=0 align=center bgcolor=#000000>
+
+	<table border=0 align=left bgcolor=white>
 		<tr>
 			<td width=80%>
-				<div class="d1">
-<form method=GET action="https://youcare.world/all?l=fr&q=">
-<INPUT id="recherche" TYPE=text name=q size=20 maxlength=255 value="" placeholder="Youcare 🐶">
-</form>
+				<div class="arial">Portail.ml <font size=1>v1.0.1</font><br />&nbsp;</div>
+				<div class="text">Mot de passe :<br />&nbsp;<br />
+				<form action="secure.php" method="post">
+				<input type="password" name="mot_de_passe" id="mot_de_passe"/>
+				<input type="submit" value="Valider" />
+				</form>
 				</div>
-		</td>
+			</td>
 		</tr>
 	</table>
+<div>&nbsp;<br />&nbsp;</div>
 	<table align=right border=0>
 		<tr>
 			<td>
-			<div class="cgu"><span onmouseover="myAlert();"><i>copyleft</font></i></span></div>
-		</td>
+			<div align=right><font size=2 color=gray face="arial"><i>copyleft <font size=2 color=gray face="arial">portail.ml</font></font></i></font></div>
+			</td>
 		</tr>
 	</table>
-	</td>
+			</td>
 		</tr>
 	</table>
 </body>
